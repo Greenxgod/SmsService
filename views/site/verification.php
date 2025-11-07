@@ -381,7 +381,7 @@ $this->title = 'SMS Верификация';
                 const result = await response.json();
                 
                 if (result.success) {
-                    showMessage(`📱 Код отправлен на номер ${fullPhone}`, 'success');
+                    showMessage(`Код отправлен на номер ${fullPhone}`, 'success');
                     codeInput.disabled = false;
                     codeInput.focus();
                     startCooldown();
