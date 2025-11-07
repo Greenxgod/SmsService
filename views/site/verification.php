@@ -426,7 +426,7 @@ $this->title = 'SMS Верификация';
                 const result = await response.json();
                 
                 if (result.success) {
-                    showMessage('✅ Номер успешно подтвержден!', 'success');
+                    showMessage('Номер успешно подтвержден!', 'success');
                     testCodeBanner.style.display = 'none';
                     
                     // Дополнительные действия после успешной верификации
